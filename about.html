@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shopstyle.css">
+    <title>Shopy7 pets_About</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-top:20px;
+        }
+        body{
+            background-image: linear-gradient(to right,rgb(181, 66, 209),green,rgb(224, 137, 151));
+        }
+        ul{
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.932);
+            width:50%;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        ul li{
+            display: inline;
+            padding:13px;
+            width:80px;
+            margin-right: 40px;
+            
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            color:white;
+            padding: 10px;
+        }
+        ul li a:hover{
+            font-weight: bold;
+            background-color: burlywood;
+            padding:13px;
+            color:black
+        }
+        .abtpic{
+            width:200px;
+            height:230px;
+        }
+        .btn{
+            background-color: rgb(184, 167, 113);
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            width:70px;
+        }
+        .btn:hover{
+            background-color: rgb(231, 153, 49);
+        }
+        .btn a{
+            text-decoration: none;
+            font-weight:bold;
+        }
+        .ftn{
+            display:inline-block; 
+            width:25%; 
+            border: 1px solid black;
+            padding: 10px; 
+            text-align: center;
+            background-color: rgba(192, 146, 48, 0.322);
+        }
+        .fb{
+            text-align:center;
+        }
+        .fb input{
+            padding:5px;
+            border-radius:10px;
+            background-color: rgba(0, 0, 0, 0.274);
+        }
+        .fb input:hover{
+            background-color: rgba(222, 184, 135, 0.658);
+        }
+    </style>
+</head>
+<body>
+    <div class="pets">
+    <h1>PET SHOP</h1>
+        <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+             <p style="font-size:180px; text-align:center; font-weight: bold; color:rgba(0, 0, 0, 0.87);">about us</p>
+        </div>
+    </div>
+
+        <div style="display:block; display: flex; justify-content: space-evenly; margin-top:30px;">
+            <div class="ftn">
+            <img src="pf1.jpg" class="abtpic"><br>
+            <p>This link Go's to ather Food site. Do you like to go!.</p><br>
+            <button class="btn"><a href="https://en.wikipedia.org/wiki/Pet_food">Food</a></button></div>
+            <div class="ftn">
+            <img src="ps2.jpg" class="abtpic"><br>
+            <p>This link Go's to ather Things site. Do you like to go!.</p><br>
+            <button class="btn"><a href="https://www.amazon.in/Pet-Supplies/b?ie=UTF8&node=2454181031">Things</a></button></div>
+            <div class="ftn">
+            <img src="pm1.jpg" class="abtpic"><br>
+            <p>This link Go's to ather medical site. Do you like to go!.</p><br>
+            <button class="btn"><a href="https://dir.indiamart.com/impcat/dog-medicines.html">Medical</a></button></div>
+        </div>
+
+        <div class="fb"> 
+            <p style="font-weight:bold; font-weight:600; font-size: large; background-color:black; padding:10px; width:60%;margin-left: auto;margin-right: auto; color:whitesmoke"> SEND YOUR FEEDBACK <img src="msg.jpg" style="height:23px; width:23px"></p>
+           <input type="text" placeholder="Your Name"><br><br>
+           <input type="mail" placeholder="Enter Your Mail"><br><br>  
+           <input type="text" placeholder="Message"><br><br>
+           <input type="button" value="Send" style="width:70px">
+        </div>
+        
+</body>
+</html>
